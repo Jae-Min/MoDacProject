@@ -2,6 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
+<<<<<<< HEAD
 <!-- <!-- Bootstrap core CSS --> 
 <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 
@@ -32,6 +33,31 @@
 <!-- right: 0;"  -->
 <!-- Footer -->
 <footer class="page-footer" style="margin-top: 50px;">
+=======
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/shop-homepage.css" rel="stylesheet">
+
+<style>
+	.footer-list{
+		padding:30px;
+	}
+</style>
+
+<script>
+	$(function(){
+		$('footer').addClass('text-center py-1').css('color', 'white');
+		$('.footer-list a').css('padding', '10px').css('text-decoration', 'none');
+		$('.footer-list').css('padding', '30px');
+	});
+</script>
+
+
+<!-- Footer -->
+<footer style="margin-top: 10px;" class="page-footer">
+>>>>>>> branch 'master' of https://github.com/jisunaing/MoDacProject.git
 	<div class="footer-list text-center py-1" >
 		<a href="#">사이트문의</a>
 		<a href="#">공지사항</a>

@@ -7,7 +7,10 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
+<<<<<<< HEAD
 		<config>WebContent/WEB-INF/config/modac.xml</config>
+=======
+>>>>>>> branch 'master' of https://github.com/jisunaing/MoDacProject.git
 	</configs>
 	<autoconfigs>
 		<config>src/config/root-context.xml</config>
